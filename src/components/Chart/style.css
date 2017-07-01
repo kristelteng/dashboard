@@ -1,0 +1,55 @@
+.dashboard-stat.blue {
+    background-color: #3598dc;
+    display: block;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.dashboard-stat.dashboard-stat-v2 .visual {
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+.dashboard-stat .visual {
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+a, button, code, div, img, input, label, li, p, pre, select, span, svg, table, td, textarea, th, ul {
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-shadow: none;
+    color: #337ab7;
+}
+
+.dashboard-stat.blue .details .desc {
+    color: #FFF;
+    opacity: 1;
+    font-size: 25px;
+}
+
+span {
+    color: white;
+    font-size: 16px;
+}

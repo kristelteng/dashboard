@@ -1,0 +1,8 @@
+<!-- v-on:submit.prevent="onSubmit" binds the method onSubmit to be run when the form is submitted. By adding .prevent that means that Vue will automatically prevent the default action from occurring (if Vue didn’t do this we could call event.preventDefault() in our code, but we might as well take advantage of Vue’s feature).
+v-model:username binds the input’s value to a value, username, in our code. For those of you familiar with Angular you may recognize this as very similar to ng-model. When we created GithubInput we declared that it had a piece of data, username, and here we’ve bound that piece of data to the input field. The two will automatically be kept in sync.
+ -->
+
+<form v-on:submit.prevent="onSubmit">
+  <input type="text" v-model="username" placeholder="Enter a github username here " />
+  <button type="submit">Go!</button>
+</form>
